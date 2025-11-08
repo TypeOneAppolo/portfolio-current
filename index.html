@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Appolo - Developer Portfolio</title>
+    <link rel="icon" type="image/png" href="websiteiconimage.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="grain"></div>
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+    
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-content">
+            <div class="logo">appolo</div>
+            <ul class="nav-menu">
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#work">work</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-left">
+                <div class="profile-image">
+                    <img src="profilepicture.png" alt="Appolo">
+                </div>
+            </div>
+            <div class="hero-right">
+                <div class="greeting">hey there 👋</div>
+                <h1 class="hero-title">I'm Appolo</h1>
+                <div class="hero-subtitle">
+                    <span class="accent">16yo developer</span>
+                    <span class="divider">•</span>
+                    <span class="accent">programming since 2016</span>
+                </div>
+                <p class="hero-text">Currently studying computing and making games, websites, and whatever sounds fun to create.</p>
+                <div class="hero-buttons">
+                    <a href="#work" class="btn btn-primary">see my work</a>
+                    <a href="#contact" class="btn btn-secondary">get in touch</a>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-hint">scroll down</div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">about me</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <div class="text-block">
+                        <div class="block-icon">💻</div>
+                        <p>Started my coding journey at 10 with Roblox game development.</p>
+                    </div>
+                    <div class="text-block">
+                        <div class="block-icon">🎯</div>
+                        <p>I work with Python, C++, Lua, and JavaScript. Always trying to learn something new</p>
+                    </div>
+                    <div class="text-block">
+                        <div class="block-icon">🎮</div>
+                        <p>I always listen to your requests, and I work hard to make what you envision!</p>
+                    </div>
+                </div>
+                <div class="skills-box">
+                    <h3>what i work with</h3>
+                    <div class="skills">
+                        <span class="skill">Python</span>
+                        <span class="skill">C++</span>
+                        <span class="skill">Lua</span>
+                        <span class="skill">JavaScript</span>
+                        <span class="skill">Unity</span>
+                        <span class="skill">Roblox Studio</span>
+                        <span class="skill">HTML/CSS</span>
+                        <span class="skill">Git</span>
+                    </div>
+                    <div class="quick-facts">
+                        <div class="fact">
+                            <span class="fact-number">6+</span>
+                            <span class="fact-label">years coding</span>
+                        </div>
+                        <div class="fact">
+                            <span class="fact-number">20+</span>
+                            <span class="fact-label">projects built</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="work" class="work">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">stuff i've made</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="projects">
+                
+                <!-- Project 1: Raise A Dr House -->
+                <div class="project project-large">
+                    <div class="project-preview">
+                        <a href="https://www.roblox.com/games/82635139286925/Raise-a-Dr-House" target="_blank" class="preview-link">
+                            <img src="project1.png" alt="Raise A Dr House" class="project-image">
+                            <div class="play-overlay">
+                                <svg width="60" height="60" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M8 5v14l11-7z"/>
+                                </svg>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-header">
+                            <h3>Raise A Dr House</h3>
+                            <span class="project-badge">160k+ visits</span>
+                        </div>
+                        <p>A complete Roblox game with custom systems, engaging gameplay mechanics, and a growing player base. Features complex game logic, interactive elements, and polished UI.</p>
+                        <div class="project-tags">
+                            <span>Lua</span>
+                            <span>Roblox</span>
+                            <span>Game Dev</span>
+                            <span>UI Design</span>
+                        </div>
+                        <a href="https://www.roblox.com/games/82635139286925/Raise-a-Dr-House" class="project-link" target="_blank">
+                            play game →
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Project 2: Lock On System -->
+                <div class="project">
+                    <div class="project-preview">
+                        <video class="project-video" loop muted playsinline>
+                            <source src="video1.mp4" type="video/mp4">
+                        </video>
+                        <div class="video-controls">
+                            <button class="play-btn">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M8 5v14l11-7z"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Lock-On System</h3>
+                        <p>Advanced targeting system with smooth camera transitions and visual feedback. Perfect for combat games requiring precision targeting.</p>
+                        <div class="project-tags">
+                            <span>Lua</span>
+                            <span>Roblox</span>
+                            <span>Game Mechanics</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Emote Wheel -->
+                <div class="project">
+                    <div class="project-preview">
+                        <video class="project-video" loop muted playsinline>
+                            <source src="video2.mp4" type="video/mp4">
+                        </video>
+                        <div class="video-controls">
+                            <button class="play-btn">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M8 5v14l11-7z"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Emote Wheel UI</h3>
+                        <p>Intuitive radial menu system for quick emote selection. Features smooth animations and responsive design for seamless player interaction.</p>
+                        <div class="project-tags">
+                            <span>Lua</span>
+                            <span>UI/UX</span>
+                            <span>Roblox</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: RTS Unit Movement -->
+                <div class="project">
+                    <div class="project-preview">
+                        <video class="project-video" loop muted playsinline>
+                            <source src="video3.mp4" type="video/mp4">
+                        </video>
+                        <div class="video-controls">
+                            <button class="play-btn">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M8 5v14l11-7z"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>RTS Unit Movement System</h3>
+                        <p>Strategic unit control system with pathfinding and formation logic. Enables commanding multiple units with intelligent movement behavior.</p>
+                        <div class="project-tags">
+                            <span>Lua</span>
+                            <span>Pathfinding</span>
+                            <span>RTS</span>
+                        </div>
+                    </div>
+                </div>
+        <!-- Project 5: Maze Generation -->
+        <div class="project">
+            <div class="project-preview">
+                <a href="https://youtu.be/ULdcywxUb48" target="_blank" class="preview-link youtube-link">
+                    <div class="youtube-placeholder">
+                        <svg width="80" height="80" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                        </svg>
+                        <span>Watch on YouTube</span>
+                    </div>
+                </a>
+            </div>
+            <div class="project-info">
+                <h3>Maze Generation Algorithm</h3>
+                <p>Procedural maze generation using recursive backtracking. Creates unique, solvable mazes perfect for puzzle games and exploration mechanics.</p>
+                <div class="project-tags">
+                    <span>Python</span>
+                    <span>Algorithms</span>
+                    <span>Procedural Gen</span>
+                </div>
+                <a href="https://youtu.be/ULdcywxUb48" class="project-link" target="_blank">
+                    watch video →
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">let's talk</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-content">
+                <p class="contact-intro">I'm always up for chatting about projects, coding, or just random tech stuff. Feel free to reach out!</p>
+                <div class="contact-links">
+                    <a href="mailto:juciuskajus15@gmail.com" class="contact-link">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                            <polyline points="22,6 12,13 2,6"/>
+                        </svg>
+                        <span>juciuskajus15@gmail.com</span>
+                    </a>
+                    <a href="https://www.roblox.com/users/1163251716/profile" class="contact-link" target="_blank">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M18.926 23.998L0.006 18.892 5.075 0.002 24.005 5.108z M10.44 18.225l5.377 1.385 1.934-7.485-5.377-1.385z"/>
+                        </svg>
+                        <span>roblox profile</span>
+                    </a>
+                    <a href="https://discord.gg/kREW5QQqPB" class="contact-link" target="_blank">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515a.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0a12.64 12.64 0 0 0-.617-1.25a.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057a19.9 19.9 0 0 0 5.993 3.03a.078.078 0 0 0 .084-.028a14.09 14.09 0 0 0 1.226-1.994a.076.076 0 0 0-.041-.106a13.107 13.107 0 0 1-1.872-.892a.077.077 0 0 1-.008-.128a10.2 10.2 0 0 0 .372-.292a.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.062 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127a12.299 12.299 0 0 1-1.873.892a.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028a19.839 19.839 0 0 0 6.002-3.03a.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.956-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.42c0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419c0-1.333.955-2.419 2.157-2.419c1.21 0 2.176 1.096 2.157 2.42c0 1.333-.946 2.418-2.157 2.418z"/>
+                        </svg>
+                        <span>discord</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>made with coffee and curiosity ☕</p>
+        <p>© 2025 - thanks for stopping by</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
